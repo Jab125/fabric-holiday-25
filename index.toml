@@ -30,6 +30,16 @@ hash = "f00e9036ea245c75305f760c1a9eafbfa0c653119ab8fd394e90ad39f459c6cf"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "89cedb686d76c3be65da8cd097c8bbb980b087eb99ee46152a8114f743946224"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "c7cc3907e7adb7b30249dc2b5ccd3e30111d562475087e0188f00fb3bc5837de"
+metafile = true
+
+[[files]]
 file = "mods/promotedserver.pw.toml"
 hash = "cc53ad43e9b83e554e2ab1991aaa259151a30db78d14e1f011be6391d2a90f2c"
 metafile = true

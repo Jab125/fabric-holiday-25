@@ -1,0 +1,13 @@
+name = "Mod Menu"
+filename = "modmenu-17.0.0-alpha.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/fP9olSIC/modmenu-17.0.0-alpha.1.jar"
+hash-format = "sha256"
+hash = "8f0c03f83ecce844eb6e43ac4af4ff1117c13dc477ba6de61520254f8dee5f6f"
+
+[update]
+[update.modrinth]
+mod-id = "mOgUt4GM"
+version = "fP9olSIC"
