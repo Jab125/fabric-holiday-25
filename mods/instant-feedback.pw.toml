@@ -1,0 +1,13 @@
+name = "Instant Feedback"
+filename = "instantfeedback-3.0.1+1.21.11-rc2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pcDsJNzK/versions/OSPMZg8N/instantfeedback-3.0.1%2B1.21.11-rc2.jar"
+hash-format = "sha512"
+hash = "849bab3edbf4b6d2f2c60a67173b419eca67e7c9055bf06988c734adb07064b5986c1cd389ea80132a76b669fc6f810d2a99a5b39dc0d53bd095f4de0f998da6"
+
+[update]
+[update.modrinth]
+mod-id = "pcDsJNzK"
+version = "OSPMZg8N"
