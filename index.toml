@@ -20,13 +20,13 @@ hash = "575df9a354a2006f7287610b1e8c9111ebb89c2db6dbab34256db6e6870bc927"
 metafile = true
 
 [[files]]
-file = "mods/laseredstone.pw.toml"
-hash = "f00e9036ea245c75305f760c1a9eafbfa0c653119ab8fd394e90ad39f459c6cf"
+file = "mods/instant-feedback.pw.toml"
+hash = "29d7d0c59e953140526bea6a9ebcbdc871584b509e5cede23c7a2eb4b3cf683f"
 metafile = true
 
 [[files]]
-file = "mods/instant-feedback.pw.toml"
-hash = "ef619a260569e50c4a8c884ca372884a2794b2ba16c636d37238774041f944ac"
+file = "mods/laseredstone.pw.toml"
+hash = "f00e9036ea245c75305f760c1a9eafbfa0c653119ab8fd394e90ad39f459c6cf"
 metafile = true
 
 [[files]]
