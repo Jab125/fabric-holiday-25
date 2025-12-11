@@ -45,6 +45,11 @@ hash = "9f0cee82eb8f94ef97085a9b532526fce88c3cead8c4b402a129a5cee11c07cd"
 metafile = true
 
 [[files]]
+file = "mods/inline-tooltips.pw.toml"
+hash = "417fc30eaee9ecb775af4ecf9562e9338d6623959eb062c57d3c48e05fb08249"
+metafile = true
+
+[[files]]
 file = "mods/promotedserver.pw.toml"
 hash = "cc53ad43e9b83e554e2ab1991aaa259151a30db78d14e1f011be6391d2a90f2c"
 metafile = true
