@@ -1,11 +1,31 @@
 {
-	"schemaVersion": 1,
-	"id": "holiday-server-mod",
-	"version": "${version}",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"holiday.server.CommonEntrypoint"
-		]
-	}
+  "schemaVersion": 1,
+  "id": "holiday-server-mod",
+  "version": "${version}",
+  "name": "Holiday",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/holiday-server-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "holiday.CommonEntrypoint"
+    ],
+    "client": [
+      "holiday.ClientEntrypoint"
+    ],
+    "server": [
+      "holiday.ServerEntrypoint"
+    ]
+  },
+  "mixins": [
+    "holiday.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
 }

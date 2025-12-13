@@ -1,3 +1,7 @@
 *.mrpack
 .DS_Store
 mods/holiday-server-mod-*.jar
+mod/run/
+mod/.gradle/
+mod/build/
+mod/.idea/

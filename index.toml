@@ -9,8 +9,12 @@ file = "mods/ChainStyleWither-1.7.0.jar"
 hash = "277a8ecd287fcbe905d70c6fa707b880bd928b67ff4204295443bf8f5bf6dbed"
 
 [[files]]
+file = "mods/Holiday-1.0-sources.jar"
+hash = "579a0d4c989713adea1b4d5054978f124d7d01b629b29c1dbba8c13dbd39f5e4"
+
+[[files]]
 file = "mods/Holiday-1.0.jar"
-hash = "3c209ed7634bfe201a25c0e5ad85c8995738e8c81c7496856871a2d2c79e5f0d"
+hash = "1f3055e17dd621359f11a7b2c8f2673477dd758324127bff5df3ec0ef3fdf5f1"
 
 [[files]]
 file = "mods/apothicspawners-0.0.1.jar"
