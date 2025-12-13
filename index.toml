@@ -21,6 +21,11 @@ file = "mods/apothicspawners-0.0.1.jar"
 hash = "22aa6af06401c3dbf78b4828b8672f39bca33d1d668cac770ca486998324725c"
 
 [[files]]
+file = "mods/badpackets.pw.toml"
+hash = "3b376e852bf5c733133fc2904e72a99a5c052e2f2f49c4268e99e45cccca3afa"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "8a2c564b4b7b8ce6642c25d517920ac12199a09c57ee850044276185f491a84a"
 metafile = true
@@ -73,6 +78,11 @@ metafile = true
 [[files]]
 file = "mods/promotedserver.pw.toml"
 hash = "cc53ad43e9b83e554e2ab1991aaa259151a30db78d14e1f011be6391d2a90f2c"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "42df34ef67d231795e56d353378d3eb38905173504c1496bf0f4d88ee7c9d69d"
 metafile = true
 
 [[files]]
