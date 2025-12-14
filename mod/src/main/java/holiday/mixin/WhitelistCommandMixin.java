@@ -18,7 +18,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.Collection;
 import java.util.function.Predicate;
 
-@Debug(export = true)
 @Mixin(WhitelistCommand.class)
 public class WhitelistCommandMixin {
     @Inject(
