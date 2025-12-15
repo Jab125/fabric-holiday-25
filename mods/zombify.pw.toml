@@ -1,0 +1,13 @@
+name = "Zombify"
+filename = "Zombify-0.1.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DTmZ5lnu/versions/3y9uG86g/Zombify-0.1.4.jar"
+hash-format = "sha512"
+hash = "311bc157c835201342cc61242e419f517582a2f7d15a0bf23cb4e82845848f4c81474e7bb465965c610cf0dd5849be501fe4220f4b1d1c58437f2dc1f960b0bc"
+
+[update]
+[update.modrinth]
+mod-id = "DTmZ5lnu"
+version = "3y9uG86g"

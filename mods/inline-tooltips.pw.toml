@@ -1,13 +1,13 @@
 name = "Inline Tooltips"
-filename = "inline_tooltips-1.6.0+1.21.10-fabric.jar"
+filename = "inline_tooltips-1.6.1+1.21.10-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/TVOgzXyj/versions/D7RiR0QM/inline_tooltips-1.6.0%2B1.21.10-fabric.jar"
-hash-format = "sha256"
-hash = "fb090e7b95812e53440bce9738a4d7025b70e5a7217fbdd0fe5b19e52ab1ab69"
+url = "https://cdn.modrinth.com/data/TVOgzXyj/versions/iuTFdDaI/inline_tooltips-1.6.1%2B1.21.10-fabric.jar"
+hash-format = "sha512"
+hash = "50e3c5db02ee10236fcafebebafb3758cac56e98a0ef5edd9b6412c70d2f217ebbe10e388536ec56d281f1a720d0f66c6dd0aa48966b75120debee359e5ad1cb"
 
 [update]
 [update.modrinth]
 mod-id = "TVOgzXyj"
-version = "D7RiR0QM"
+version = "iuTFdDaI"

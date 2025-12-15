@@ -174,3 +174,7 @@ metafile = true
 [[files]]
 file = "mods/x-bar-theory.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/zombify.pw.toml"
+metafile = true
