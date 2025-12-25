@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EOE",
+    "ONO",
+    "EOE"
+  ],
+  "key": {
+    "E": "minecraft:end_stone",
+    "N": "minecraft:ender_eye",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "holiday-server-mod:ender_spawner_augment",
+    "count": 1
+  }
+}

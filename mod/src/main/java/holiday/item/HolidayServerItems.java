@@ -15,7 +15,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.BannerPatternTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Unit;
@@ -31,6 +30,9 @@ public final class HolidayServerItems {
             .equippableUnswappable(EquipmentSlot.HEAD)));
 
     public static final Item ENDER_PARALYZER = register("ender_paralyzer", settings -> new BlockItem(HolidayServerBlocks.ENDER_PARALYZER, settings
+        .useBlockPrefixedTranslationKey()));
+
+    public static final Item ENDER_SPAWNER_AUGMENT = register("ender_spawner_augment", settings -> new BlockItem(HolidayServerBlocks.ENDER_SPAWNER_AUGMENT, settings
         .useBlockPrefixedTranslationKey()));
 
     public static final Item FABRIC_PATTERN_ITEM = register("fabric_banner_pattern", new Item.Settings().maxCount(1).component(DataComponentTypes.PROVIDES_BANNER_PATTERNS, patternTagOf("pattern_item/fabric")));
@@ -80,6 +82,7 @@ public final class HolidayServerItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.addBefore(Items.SKELETON_SKULL, TINY_POTATO);
+            entries.addAfter(Items.VAULT, ENDER_SPAWNER_AUGMENT);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {

@@ -3,7 +3,6 @@ package holiday.block;
 import holiday.CommonEntrypoint;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
-import net.minecraft.block.enums.SculkSensorPhase;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -31,6 +30,11 @@ public final class HolidayServerBlocks {
         .strength(1.5F)
         .sounds(BlockSoundGroup.SCULK_SENSOR)
         .luminance(state -> 1)));
+
+    public static final Block ENDER_SPAWNER_AUGMENT = register("ender_spawner_augment", settings -> new Block(settings
+        .mapColor(MapColor.DARK_GREEN)
+        .strength(8F)
+        .sounds(BlockSoundGroup.SCULK)));
     private HolidayServerBlocks() {
     }
 
